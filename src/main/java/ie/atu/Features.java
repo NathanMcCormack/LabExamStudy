@@ -44,10 +44,10 @@ public class Features extends Car{
 
     @Override
     public String toString() {
-        return "Features{" +
-                "colour='" + colour + '\'' +
-                ", model='" + model + '\'' +
-                ", automatic=" + automatic +
+        return super.toString() +
+                "colour: '" + colour + '\'' +
+                ", model: '" + model + '\'' +
+                ", automatic: " + automatic +
                 '}';
     }
 }
